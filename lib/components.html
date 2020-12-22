@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#4762E6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Component Library</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  </head>
+  <body>
+    <h1>sudheervajrapu's component library</h1>
+    <p>
+      I am learning webdevelopment and I want to make a library which would make
+      all my projects look good and consistent.
+    </p>
+
+    <hr />
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p>
+      Let me show you the normal text, This is free flowing and will wrap at the
+      end like a paragraph.
+    </p>
+    <small>This is relatively a smaller text</small>
+
+    <hr />
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">
+      This is a fluid container and it will go till the end of the page
+    </div>
+
+    <h3>center container</h3>
+    <div class="container container-center">
+      This is a centered container and it will go till the specified width
+    </div>
+
+    <hr />
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr />
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+    <p>This list will not have bullets</p>
+
+    <ul class="list-non-bullet">
+      <li>item one</li>
+      <li>item two</li>
+      <li>item three</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">inline item one</li>
+      <li class="list-item-inline">inline item two</li>
+      <li class="list-item-inline">inline item three</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+
+    <ol reversed>
+      <li>item three</li>
+      <li>item two</li>
+      <li>item one</li>
+    </ol>
+
+    <hr />
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+      <div class="nav-brand">sudheervajrapu</div>
+      <ul class="nav-pills list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="/">projects</a></li>
+        <li class="list-item-inline"><a class="link" href="/">blogs</a></li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <h2>@header</h2>
+
+    <header class="hero">
+      <img class="hero-img" src="/images/hero.svg" alt="heroImg" />
+      <h1 class="hero-heading">
+        sudheer vajrapu the <span class="heading-inverted"> web developer</span>
+      </h1>
+    </header>
+
+    <hr />
+
+    <h2>@section</h2>
+
+    <section class="section site-section">
+      <div class="container container-center">
+        <h1>normal section</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+
+    <section class="section off-white">
+      <div class="container container-center">
+        <h1>off white section</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+      <div class="footer-heading">some small heading inside footer</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="/">social one</a>
+        </li>
+        |
+        <li class="list-item-inline">
+          <a class="link" href="/">social two</a>
+        </li>
+        |
+        <li class="list-item-inline">
+          <a class="link" href="/">social three</a>
+        </li>
+      </ul>
+      <div class="footer-small-heading">
+        Made with ❤️ by Sudheer Vajrapu <br />
+        Built using pure <mark>HTML</mark> and <mark>CSS</mark>
+      </div>
+    </footer>
+  </body>
+</html>
